@@ -1,0 +1,109 @@
+/* main.css */
+
+/* General styles */
+body {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Navbar */
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+/* Buttons */
+button#random, button#search {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button#random:hover, button#search:hover {
+    background-color: #17a2b8;
+    color: #000;
+}
+
+/* Input field */
+input[type="search"] {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #17a2b8;
+}
+
+input[type="search"]::placeholder {
+    color: #888;
+}
+
+/* Main container styles */
+.container, .container-fluid {
+    padding: 2rem;
+}
+
+.d-flex {
+    gap: 2rem;
+}
+
+/* Character image */
+#character {
+    max-height: 500px;
+    border: 2px solid #17a2b8;
+    border-radius: 8px;
+    background-color: #222;
+}
+
+/* Character details */
+.row {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.row .col-3 {
+    font-weight: bold;
+    color: #17a2b8;
+}
+
+.row .col-9 {
+    padding-left: 1rem;
+    color: #aaa;
+}
+
+.row .col-9::before {
+    content: ": ";
+    color: #17a2b8;
+}
+
+.fs-5 {
+    font-size: 1.1rem;
+}
+
+/* Footer (if needed) */
+footer {
+    background-color: #222;
+    color: #888;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #17a2b8;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
